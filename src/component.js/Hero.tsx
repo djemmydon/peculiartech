@@ -63,7 +63,7 @@ padding: 5rem 0;
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: #0b0471a6!important;
+  background-color: hsla(0, 0%, 0%, 0.502)!important;
 }
 
 .text{
@@ -110,6 +110,7 @@ padding: 5rem 0;
   position: relative;
   z-index: 100;
 flex-wrap: wrap;
+margin-top: 3rem;
 
 
   @media screen and (min-width: 800px) {
@@ -128,7 +129,7 @@ flex-wrap: nowrap;
 
 
     .content_icon{
-      border: 2px solid #6e63ff;
+      border: 2px solid #2d1dff;
       border-radius: 10px;
       width: 40px;
       display: flex;
@@ -149,19 +150,19 @@ const data = [
   {
     id: "1",
     title: "Responsive Design",
-    content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias expedita "
+    content: " We'll create a custom website that reflects your brand identity and business goals"
   },
   {
     id: "2",
 
     title: "Great SEO",
-    content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias expedita "
+    content: "We'll optimize your website to rank higher in search engine results pages (SERPs) for relevant keywords and phrases "
   },
   {
     id: "3",
 
     title: "Content Management",
-    content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias expedita "
+    content: " We'll develop a content management system (CMS) that allows you to easily manage and update your website's content. "
   },
 
 ]
