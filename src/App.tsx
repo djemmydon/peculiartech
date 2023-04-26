@@ -1,6 +1,7 @@
 
 import './App.css'
 import About from './component.js/About'
+import Footer from './component.js/Footer'
 import Hero from './component.js/Hero'
 import Navbar from './component.js/Navbar'
 import Reviews from './component.js/Reviews'
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Works />
       <Reviews />
+      <Footer />
     </>
   )
 }

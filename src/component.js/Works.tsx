@@ -32,7 +32,7 @@ export default Works
 const Body = styled.div`
     display: flex;
     justify-content: center;
-    margin-top: 6rem;
+    margin-top: 10rem;
 
     .flex-body{
       display: flex;
@@ -100,19 +100,19 @@ const data = [
   {
     id: "1",
     title: "Responsive Design",
-    content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias expedita "
+    content: "Custom website development: We'll create a custom website that reflects your brand identity and business goals. Our team will work with you to understand your requirements and develop a unique website that meets your needs."
   },
   {
     id: "2",
 
     title: "Great SEO",
-    content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias expedita "
+    content: "We'll optimize your website to rank higher in search engine results pages (SERPs) for relevant keywords and phrases. This can include keyword research, on-page optimization, technical SEO, and link building. "
   },
   {
     id: "3",
 
-    title: "Content Management",
-    content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias expedita "
+    title: "Content marketing",
+    content: "We'll create high-quality, relevant content that attracts and engages your audience, helps you rank higher in search results, and positions you as an industry leader."
   },
 
 ]

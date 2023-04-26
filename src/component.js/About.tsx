@@ -10,7 +10,7 @@ function About() {
             About Us
           </h2>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eaque assumenda id hic molestiae sit explicabo saepe harum, itaque reprehenderit!</p>
+          <p>No matter what your website development needs are, we're here to help. Contact us today to learn more about how we can help you create a website that drives traffic, engages your audience, and grows your business.</p>
         </div>
 
         <div className="image">
@@ -38,6 +38,7 @@ const Body = styled.div`
   align-items: center;
   gap: 2rem;
   margin-left: 0.6rem;
+  margin-top: 3rem;
 
   @media screen and (max-width: 800px) {
     justify-content: center;

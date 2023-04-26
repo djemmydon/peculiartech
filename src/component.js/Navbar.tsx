@@ -41,7 +41,7 @@ export default Navbar
 const Body = styled.div`
 
 position: absolute;
-z-index: 100;
+z-index: 120;
 top: 0;
 left: 0;
   height: 100px;
@@ -53,6 +53,18 @@ left: 0;
     justify-content: space-between;
     padding: 0 15px;
     align-items: center;
+
+    ul{
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      list-style: none;
+      
+    li a{
+      text-transform: uppercase;
+      color: white;
+    }
+    }
 
 
     .logo{
@@ -72,12 +84,13 @@ left: 0;
       position: absolute;
       top: 6rem;
       left: 0;
-      width: 100%;
+      width: 400px;
       height: 500px;
       border-radius: 10px;
-      background-color: #515151;
-      transform: scaleX(-0) rotateZ(-200deg);
+      background-color: #000000;
+      transform: scaleX(-0) ;
       transition: .5s;
+      padding-top: 2rem;
       
     }
 
